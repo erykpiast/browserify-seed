@@ -15,7 +15,7 @@ var EventEmitterMock = (function() {
 })();
 
 
-var Example = proxyquire('./example', {
+var Example = proxyquire('../lib/example', {
     'events': {
         EventEmitter: EventEmitterMock
     }

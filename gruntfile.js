@@ -1,27 +1,16 @@
 module.exports = function (grunt) {
 
-    grunt.registerTask('default', [ 'dev' ]);
-
-    grunt.registerTask('dev', [
-        'jshint',
-        'clean:dist',
-        'build:dev',
-        'http-server:dev',
-        'watch:demo'
-    ]);
-
-    grunt.registerTask('dist', [
-        'jshint',
-        'clean:dist',
-        'build:dist'
-    ]);
+    grunt.registerTask('default', [ 'demo' ]);
 
     grunt.registerTask('demo', [
-        'dist',
-        'http-server:demo'
+        'jshint',
+        'clean:demo',
+        'browserify:demo',
+        'http-server:demo',
+        'watch:demo',
+        'clean:demo'
     ]);
 
-    grunt.registerMultiTask('build', simpleMultiTaskRunner);
     grunt.registerMultiTask('test', simpleMultiTaskRunner);
 
 
@@ -30,44 +19,38 @@ module.exports = function (grunt) {
         config: {
             demo: {
                 dir: 'demo',
-                files: 'demo/**'
-            },
-            dist: {
-                dir: 'dir',
+                files: [
+                    'demo/index.js',
+                    'demo/index.html'
+                ],
                 js: {
-                    dir: 'dist',
-                    bundle: 'dist/<%= pkg.name %>.js'
+                    index: 'demo/index.js',
+                    bundle: 'demo/demo.bundle.js'
                 }
             },
             src: {
                 js: {
-                    dir: 'src/scripts',
-                    files: 'src/scripts/**/*.js',
-                    index: 'src/scripts/index.js'
+                    dir: '.',
+                    files: [
+                        'index.js',
+                        'lib/**/*.js',
+                    ],
+                    index: 'index.js'
                 }
             },
             spec: {
                 dir: 'test',
-                bundle: 'test/<%= pkg.name %>.js',
-                files: 'src/scripts/**/*.spec.js'
+                bundle: 'test/<%= pkg.name %>.bundle.js',
+                files: 'test/**/*.spec.js'
             }
         },
         clean: {
-            dist: [ '<%= config.dist.dir %>/*' ],
-            test: [ '<%= config.spec.bundle %>/*' ]
-        },
-        build: {
-            dev: [
-                'browserify:dev',
-                'copy:all'
-            ],
-            dist: [
-                'browserify:dist',
-                'uglify:dist'
-            ]
+            demo: [ '<%= config.demo.js.bundle %>' ],
+            test: [ '<%= config.spec.bundle %>' ]
         },
         test: {
             dev: [
+                'jshint',
                 'clean:test',
                 'browserify:test-dev',
                 'karma:unit',
@@ -75,33 +58,22 @@ module.exports = function (grunt) {
                 'clean:test'
             ],
             dist: [
+                'jshint',
                 'clean:test',
                 'browserify:test-dist',
                 'karma:unit',
                 'clean:test'
             ]
         },
-        copy: {
-            all: {
-                files: [{
-                    expand: true,
-                    cwd: '<%= config.src.js.dir %>',
-                    src: '**',
-                    dest: '<%= config.dist.dir %>/scripts'
-                }]
-            }
-        },
         browserify: {
-            dev: {
+            browserifyOptions: {
+                debug: true
+            },
+            demo: {
                 files: [{
-                    src: '<%= config.src.js.index %>',
-                    dest: '<%= config.dist.js.bundle %>'
-                }],
-                options: {
-                    browserifyOptions: {
-                        debug: true
-                    }
-                }
+                    src: '<%= config.demo.js.index %>',
+                    dest: '<%= config.demo.js.bundle %>'
+                }]
             },
             'test-dev': {
                 files: [{
@@ -109,19 +81,8 @@ module.exports = function (grunt) {
                     dest: '<%= config.spec.bundle %>'
                 }],
                 options: {
-                    browserifyOptions: {
-                        debug: true
-                    },
+                    
                     plugin: [ 'proxyquireify/plugin' ]
-                }
-            },
-            dist: {
-                files: [{
-                    src: '<%= config.src.js.index %>',
-                    dest: '<%= config.dist.js.bundle %>'
-                }],
-                options: {
-                    transform: [ 'uglyfyify' ]
                 }
             },
             'test-dist': {
@@ -130,23 +91,11 @@ module.exports = function (grunt) {
                     dest: '<%= config.spec.bundle %>'
                 }],
                 options: {
-                    transform: [ 'uglyfyify' ],
+                    browserifyOptions: {
+                        debug: false
+                    },
                     plugin: [ 'proxyquireify/plugin' ]
                 }
-            }
-        },
-        uglify: {
-            dist: {
-                files: [{
-                    src: '<%= config.dist.js.bundle %>',
-                    dest: '<%= config.dist.js.bundle %>'
-                }]
-            },
-            'test-dist': {
-                files: [{
-                    src: '<%= config.spec.bundle %>',
-                    dest: '<%= config.spec.bundle %>'
-                }]
             }
         },
         watch: {
@@ -158,7 +107,11 @@ module.exports = function (grunt) {
                     '<%= config.src.js.files %>',
                     '<%= config.demo.files %>'
                 ],
-                tasks: [ 'jshint', 'build:dev' ]
+                tasks: [
+                    'jshint',
+                    'clean:demo',
+                    'browserify:demo'
+                ]
             },
             test: {
                 files: [
@@ -166,9 +119,10 @@ module.exports = function (grunt) {
                     '<%= config.spec.files %>'
                 ],
                 tasks: [
+                    'jshint',
                     'clean:test',
                     'browserify:test-dev',
-                    'karma:unit'
+                    'karma:unit',
                 ]
             }
         },
@@ -180,16 +134,6 @@ module.exports = function (grunt) {
             ]
         },
         'http-server': {
-            dev: {
-                root: '.',
-                port: 8080,
-                host: '127.0.0.1',
-                cache: -1,
-                showDir : true,
-                autoIndex: true,
-                defaultExt: 'html',
-                runInBackground: true
-            },
             demo: {
                 root: '.',
                 port: 8080,
@@ -198,7 +142,7 @@ module.exports = function (grunt) {
                 showDir : true,
                 autoIndex: true,
                 defaultExt: 'html',
-                runInBackground: false
+                runInBackground: true
             }
         },
         karma: {
