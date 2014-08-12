@@ -43,19 +43,13 @@ module.exports = function (grunt) {
                 js: {
                     dir: 'src/scripts',
                     files: 'src/scripts/**/*.js',
-                    build: 'src/app.build.js',
-                    main: 'src/scripts/main.js'
+                    index: 'src/scripts/index.js'
                 }
             },
             spec: {
                 dir: 'test',
-                main: 'test/main.js',
                 bundle: 'test/<%= pkg.name %>.js',
                 files: 'src/scripts/**/*.spec.js'
-            },
-            styles: {
-                dir: 'src/styles',
-                files: 'src/styles/**/*.css'
             }
         },
         clean: {
@@ -100,7 +94,7 @@ module.exports = function (grunt) {
         browserify: {
             dev: {
                 files: [{
-                    src: '<%= config.src.js.main %>',
+                    src: '<%= config.src.js.index %>',
                     dest: '<%= config.dist.js.bundle %>'
                 }],
                 options: {
@@ -123,7 +117,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: [{
-                    src: '<%= config.src.js.main %>',
+                    src: '<%= config.src.js.index %>',
                     dest: '<%= config.dist.js.bundle %>'
                 }],
                 options: {
