@@ -16,8 +16,8 @@ var EventEmitterMock = (function() {
 
 
 var Example = proxyquire('./example', {
-    'events': {
-        EventEmitter: EventEmitterMock
+    './events': {
+        EventsEmitter: EventEmitterMock
     }
 });
 

@@ -5,7 +5,6 @@ module.exports = function (grunt) {
     grunt.registerTask('dev', [
         'jshint',
         'clean:dist',
-        'clean:bower',
         'build:dev',
         'http-server:dev',
         'watch:demo'
@@ -14,7 +13,6 @@ module.exports = function (grunt) {
     grunt.registerTask('dist', [
         'jshint',
         'clean:dist',
-        'clean:bower',
         'build:dist'
     ]);
 
@@ -35,6 +33,7 @@ module.exports = function (grunt) {
                 files: 'demo/**'
             },
             dist: {
+                dir: 'dir',
                 js: {
                     dir: 'dist',
                     bundle: 'dist/<%= pkg.name %>.js'
@@ -49,6 +48,7 @@ module.exports = function (grunt) {
                 }
             },
             spec: {
+                dir: 'test',
                 main: 'test/main.js',
                 bundle: 'test/<%= pkg.name %>.js',
                 files: 'src/scripts/**/*.spec.js'
@@ -59,12 +59,8 @@ module.exports = function (grunt) {
             }
         },
         clean: {
-            dist: [ '<%= config.dist %>/*' ],
-            bower: 'bower_components',
-            styles: [
-                '<%= config.dist %>/**/*.css',
-                '!<%= config.dist %>/<%= pkg.name %>.css'
-            ]
+            dist: [ '<%= config.dist.dir %>/*' ],
+            test: [ '<%= config.spec.bundle %>/*' ]
         },
         build: {
             dev: [
@@ -97,55 +93,51 @@ module.exports = function (grunt) {
                     expand: true,
                     cwd: '<%= config.src.js.dir %>',
                     src: '**',
-                    dest: '<%= config.dist %>/scripts'
+                    dest: '<%= config.dist.dir %>/scripts'
                 }]
             }
         },
         browserify: {
             dev: {
                 files: [{
-                    src: '<%= conf.src.js.main %>',
-                    dest: '<%= conf.dist.js.bundle %>'
+                    src: '<%= config.src.js.main %>',
+                    dest: '<%= config.dist.js.bundle %>'
                 }],
                 options: {
-                    bundleOptions: {
+                    browserifyOptions: {
                         debug: true
                     }
                 }
             },
             'test-dev': {
                 files: [{
-                    src: '<%= conf.src.js.main %>',
-                    dest: '<%= conf.spec.bundle %>'
+                    src: '<%= config.spec.files %>',
+                    dest: '<%= config.spec.bundle %>'
                 }],
                 options: {
-                    bundleOptions: {
+                    browserifyOptions: {
                         debug: true
-                    }
+                    },
+                    plugin: [ 'proxyquireify/plugin' ]
                 }
             },
             dist: {
                 files: [{
-                    src: '<%= conf.src.js.main %>',
-                    dest: '<%= conf.dist.js.bundle %>'
+                    src: '<%= config.src.js.main %>',
+                    dest: '<%= config.dist.js.bundle %>'
                 }],
                 options: {
-                    bundleOptions: {
-                        debug: false,
-                        transform: [ 'uglyfyify' ]
-                    }
+                    transform: [ 'uglyfyify' ]
                 }
             },
             'test-dist': {
                 files: [{
-                    src: '<%= conf.src.js.main %>',
-                    dest: '<%= conf.spec.bundle %>'
+                    src: '<%= config.spec.files %>',
+                    dest: '<%= config.spec.bundle %>'
                 }],
                 options: {
-                    bundleOptions: {
-                        debug: false,
-                        transform: [ 'uglyfyify' ]
-                    }
+                    transform: [ 'uglyfyify' ],
+                    plugin: [ 'proxyquireify/plugin' ]
                 }
             }
         },

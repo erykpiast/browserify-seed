@@ -1,1 +1,1851 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"example"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"fi",
+				"filtered"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"new",
+				"newVal"
+			],
+			[
+				"ng",
+				"ngModelCtrl"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"reco",
+				"recordings"
+			],
+			[
+				"M",
+				"MProject"
+			],
+			[
+				"MProj",
+				"MProjects"
+			],
+			[
+				"v",
+				"visible"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"pro",
+				"projectId"
+			],
+			[
+				"$root",
+				"$rootScope	AngularJS"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
+				"ts",
+				"tsi18n"
+			],
+			[
+				"$roo",
+				"$rootScope	AngularJS"
+			],
+			[
+				"re",
+				"recordingEnd"
+			],
+			[
+				"recor",
+				"recordingId"
+			],
+			[
+				"exp",
+				"experimentId"
+			],
+			[
+				"experi",
+				"experimentId"
+			],
+			[
+				"add",
+				"addHandler"
+			],
+			[
+				"si",
+				"simpleSocket"
+			],
+			[
+				"se",
+				"sessionData"
+			],
+			[
+				"ev",
+				"eventMachine"
+			],
+			[
+				"get",
+				"getData"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"recori",
+				"recording"
+			],
+			[
+				"$s",
+				"$scope	AngularJS"
+			],
+			[
+				"ui",
+				"ui-view"
+			],
+			[
+				"roo",
+				"rootSidebarView"
+			],
+			[
+				"sta",
+				"states"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"file",
+				"fileset"
+			],
+			[
+				"w",
+				"writeln"
+			],
+			[
+				"require",
+				"requirejsBase"
+			],
+			[
+				"serv",
+				"services"
+			],
+			[
+				"contro",
+				"controlChannel"
+			],
+			[
+				"bu",
+				"bubblesNames"
+			],
+			[
+				"_h",
+				"_highlightCover"
+			],
+			[
+				"ani",
+				"animationTime"
+			],
+			[
+				"doc",
+				"documentElement"
+			],
+			[
+				"bubb",
+				"bubbleNames"
+			],
+			[
+				"bro",
+				"browserify-wrap"
+			],
+			[
+				"sa",
+				"sandbox"
+			],
+			[
+				"insta",
+				"instanceName"
+			],
+			[
+				"cons",
+				"consumer"
+			],
+			[
+				"_co",
+				"_consumption"
+			],
+			[
+				"_cu",
+				"_setCurrentConsumptionId"
+			],
+			[
+				"_set",
+				"_setCurrentConsumptionId"
+			],
+			[
+				"input",
+				"inputOverlay"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"_w",
+				"_$wrapper"
+			],
+			[
+				"d",
+				"documentSize"
+			],
+			[
+				"_$",
+				"_$wrapper"
+			],
+			[
+				"outer",
+				"outerWidth"
+			],
+			[
+				"is",
+				"isDocumentRoot"
+			],
+			[
+				"do",
+				"domId"
+			],
+			[
+				"curren",
+				"currentEvent"
+			],
+			[
+				"pipe",
+				"pipeName"
+			],
+			[
+				"ge",
+				"generalType"
+			],
+			[
+				"e",
+				"elem"
+			],
+			[
+				"dis",
+				"dispatchedEvent"
+			],
+			[
+				"di",
+				"dispatchedEvent"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"glo",
+				"globalKey"
+			],
+			[
+				"has",
+				"hasOwnProperty"
+			],
+			[
+				"initia",
+				"_initialData"
+			],
+			[
+				"rese",
+				"resetVisualizations"
+			],
+			[
+				"san",
+				"sandbox"
+			],
+			[
+				"events",
+				"eventsFilter"
+			],
+			[
+				"und",
+				"undefined"
+			],
+			[
+				"run",
+				"runType"
+			],
+			[
+				"cu",
+				"cursorFinalPosition"
+			],
+			[
+				"data",
+				"dataCursor"
+			],
+			[
+				"_get",
+				"_getNextIndex"
+			],
+			[
+				"ma",
+				"mainPipeline"
+			],
+			[
+				"s",
+				"sandboxDocument"
+			],
+			[
+				"curre",
+				"currentEvent"
+			],
+			[
+				"roll",
+				"rollCallback"
+			],
+			[
+				"mai",
+				"mainPipeline"
+			],
+			[
+				"next",
+				"nextTick"
+			],
+			[
+				"set",
+				"setImmediate"
+			],
+			[
+				"by",
+				"byMessageChannel"
+			],
+			[
+				"val",
+				"values"
+			],
+			[
+				"cur",
+				"currentStep"
+			],
+			[
+				"eve",
+				"events"
+			],
+			[
+				"ro",
+				"rollingPage"
+			],
+			[
+				"da",
+				"dataConsumer"
+			],
+			[
+				"_ma",
+				"_maxIndex"
+			],
+			[
+				"Ar",
+				"ArrayIterator"
+			],
+			[
+				"daa",
+				"dataCursor"
+			],
+			[
+				"dat",
+				"dataCursor"
+			],
+			[
+				"_c",
+				"_current"
+			],
+			[
+				"th",
+				"throw"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"arg",
+				"arguments"
+			],
+			[
+				"A",
+				"ArrayIterator"
+			],
+			[
+				"_e",
+				"_ended"
+			],
+			[
+				"_en",
+				"_endCallsQueue"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"fa",
+				"facade"
+			],
+			[
+				"_ac",
+				"_activeResumeFacade"
+			],
+			[
+				"la",
+				"lastTime"
+			],
+			[
+				"_a",
+				"_activeConsumer"
+			],
+			[
+				"index",
+				"startIndex"
+			],
+			[
+				"_data",
+				"_dataCursor"
+			],
+			[
+				"_",
+				"_activeConsumer"
+			],
+			[
+				"consume",
+				"consumeFn"
+			],
+			[
+				"r",
+				"require"
+			],
+			[
+				"tran",
+				"translate"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"last",
+				"lastIndex"
+			],
+			[
+				"tab",
+				"tabFoundHandler"
+			],
+			[
+				"visib",
+				"visiblePage"
+			],
+			[
+				"pa",
+				"pagesQueue"
+			],
+			[
+				"las",
+				"lastUserEvent"
+			],
+			[
+				"vii",
+				"visiblePage"
+			],
+			[
+				"visi",
+				"visiblePage"
+			],
+			[
+				"cle",
+				"clearImmediate"
+			],
+			[
+				"sw",
+				"switchToPage"
+			],
+			[
+				"nex",
+				"nextCallback"
+			],
+			[
+				"names",
+				"namespace"
+			],
+			[
+				"page",
+				"pagesQueue"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"fir",
+				"firstEvent"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 6492,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1224,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/karma.conf.js",
+			"settings":
+			{
+				"buffer_size": 389,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 227,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scripts/mods/example.js",
+			"settings":
+			{
+				"buffer_size": 423,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scripts/mods/example.spec.js",
+			"settings":
+			{
+				"buffer_size": 1886,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 75.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"index",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"sync",
+				"Package Syncing: Push Settings"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"er",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"err",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"bea",
+				"Javascript Beautify"
+			],
+			[
+				"jac",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"form",
+				"Format Code"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"for",
+				"Format Code"
+			],
+			[
+				"HTM",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"html",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"errr",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"live",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				"fo",
+				"Format: Javascript"
+			],
+			[
+				"error",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"sh",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"erro",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"hi",
+				"Local History: Compare"
+			],
+			[
+				"hist",
+				"Local History: Browse"
+			],
+			[
+				"boo",
+				"Bookmarks: Toggle"
+			],
+			[
+				"book",
+				"Bookmarks: Toggle"
+			],
+			[
+				"mark",
+				"Bookmarks: Toggle"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"hg",
+				"SublimeHg: Open CLI"
+			],
+			[
+				"hg p",
+				"Hg: Push"
+			],
+			[
+				"hg: com",
+				"Hg: Quick Commit"
+			],
+			[
+				"histor",
+				"Local History: Browse"
+			],
+			[
+				"hio",
+				"Local History: Open"
+			],
+			[
+				"loc",
+				"Local History: Browse"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"",
+				"AngularJS: Toggle - Disable Built-in Directive Completions"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"min",
+				"Minify Javascript"
+			],
+			[
+				"show",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"forma",
+				"Format Code"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"scri",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"fora",
+				"Format Code"
+			],
+			[
+				"format",
+				"Format Code"
+			],
+			[
+				"FORM",
+				"Format: Javascript"
+			],
+			[
+				"merci",
+				"Set Syntax: Mercurial Log"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"prefix",
+				"Preferences: Prefixr Key Bindings – User"
+			],
+			[
+				"isntall",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				"brose",
+				"Preferences: Browse Packages"
+			],
+			[
+				"m",
+				"Minify Javascript"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			],
+			[
+				"fom",
+				"Format: Javascript"
+			],
+			[
+				"beau",
+				"SassBeautify"
+			],
+			[
+				"taks",
+				"Tasks: New"
+			],
+			[
+				"minif",
+				"Minify Javascript to file"
+			],
+			[
+				"mini",
+				"Minify Javascript"
+			],
+			[
+				"disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"save",
+				"Project: Save As"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/e.napierala/browserify-seed/dist/browserify-seed.js",
+		"/home/e.napierala/browserify-seed/README.md",
+		"/home/e.napierala/browserify-seed/.gitignore",
+		"/home/e.napierala/browserify-seed/package.json",
+		"/home/e.napierala/browserify-seed/test/karma.conf.js",
+		"/home/e.napierala/browserify-seed/test/phantomjs-extensions.js",
+		"/home/e.napierala/browserify-seed/bower.json",
+		"/home/e.napierala/browserify-seed/demo/index.html",
+		"/home/e.napierala/browserify-seed/src/app.build.js",
+		"/home/e.napierala/browserify-seed/.jshintrc",
+		"/home/e.napierala/requirejs-seed/browserify.sublime-project",
+		"/media/MAGAZYN/Masters.of.Sex.S01E09.HDTV.x264-ASAP.txt",
+		"/home/eryk/Dropbox/toyStory/front/apps/webapp/vendor/angular-router/src/templateFactory.js",
+		"/home/eryk/UTC/remote/toyStory/front/apps/webapp/vendor/angular-router/src/templateFactory.js",
+		"/home/eryk/UTC/remote/toyStory/front/apps/webapp/vendor/bootstrap/less/pager.less",
+		"/home/eryk/UTC/remote/toyStory/front/apps/webapp/vendor/angular-bootstrap/package.json",
+		"/home/eryk/UTC/remote/toyStory/front/apps/webapp/vendor/bootstrap/test-infra/README.md",
+		"/home/eryk/UTC/remote/toyStory/front/apps/webapp/fonts/roboto/Roboto-ThinItalic-webfont.svg",
+		"/home/eryk/UTC/remote/toyStory/front/apps/webapp/style/brackets/toggles.scss",
+		"/home/eryk/UTC/remote/toyStory/front/apps/webapp/style/brackets/animate.delay.scss",
+		"/home/eryk/UTC/remote/toyStory/front/apps/webapp/fonts/roboto/Roboto-MediumItalic-webfont.svg",
+		"/home/eryk/UTC/remote/toyStory/front/apps/webapp/style/brackets/weather-icons.min.scss",
+		"/home/eryk/UTC/remote/toyStory/front/apps/webapp/webapp.sublime-project",
+		"/home/e.napierala/toyStory/front/ts-front.sublime-project",
+		"/home/e.napierala/toyStory/scripts/front/build-front.sh",
+		"/home/e.napierala/toyStory/scripts/back/redeploy-dropwizard-service.sh",
+		"/home/e.napierala/toyStory/scripts/back/build-dropwizard-service.sh",
+		"/home/e.napierala/toyStory/scripts/front/build-all.sh",
+		"/home/e.napierala/toyStory/scripts/front/Dockerfile",
+		"/home/e.napierala/toyStory/scripts/local-build.conf",
+		"/home/e.napierala/toyStory/front/Gruntfile/common/shell.js",
+		"/home/e.napierala/toyStory/front/Gruntfile/webapp/dist/tasks/tasks.js",
+		"/home/e.napierala/toyStory/scripts/local-deploy.conf",
+		"/home/e.napierala/toyStory/scripts/nginx/nginx.conf",
+		"/home/e.napierala/toyStory/front/apps/webapp/.bowerrc",
+		"/home/e.napierala/toyStory/front/apps/vr-player/bower.json",
+		"/home/e.napierala/toyStory/front/apps/vr-tracker/bower.json",
+		"/home/e.napierala/toyStory/front/Gruntfile/vr-tracker/dist/tasks/tasks.js",
+		"/home/e.napierala/toyStory/front/Gruntfile/vr-tracker/dev/tasks/tasks.js",
+		"/home/e.napierala/toyStory/front/Gruntfile/vr-player/dist/tasks/tasks.js",
+		"/home/e.napierala/toyStory/front/Gruntfile/vr-player/dev/tasks/tasks.js",
+		"/home/e.napierala/toyStory/front/Gruntfile/webapp/dev/tasks/tasks.js",
+		"/home/e.napierala/toyStory/front/Gruntfile/webapp/dist/shell.js",
+		"/home/e.napierala/toyStory/front/Gruntfile/vr-player/dev/sass.js",
+		"/home/e.napierala/toyStory/front/apps/vr-webapp/styles/main.scss",
+		"/home/e.napierala/toyStory/front/apps/vr-player/styles/main.scss",
+		"/home/e.napierala/toyStory/front/apps/vr-tracker/styles/main.scss",
+		"/home/e.napierala/toyStory/front/Gruntfile/vr-player/dist/sass.js",
+		"/home/e.napierala/toyStory/front/Gruntfile/vr-tracker/dev/sass.js",
+		"/home/e.napierala/toyStory/front/apps/webapp/vendor/angular-bootstrap/node_modules/grunt-contrib-watch/README.md",
+		"/home/e.napierala/toyStory/front/package.json",
+		"/home/e.napierala/toyStory/front/gruntfile.js",
+		"/home/e.napierala/toyStory/front/Gruntfile/vr-tracker/dev/autoprefixer.js",
+		"/home/e.napierala/xxx/toyStory/front/Gruntfile/vr-tracker/dev/sass.js",
+		"/home/e.napierala/xxx/toyStory/front/Gruntfile/vr-tracker/dev/build.js",
+		"/home/e.napierala/xxx/toyStory/front/Gruntfile/vr-tracker/dev/compass.js",
+		"/home/e.napierala/toyStory/front/Gruntfile/vr-tracker/dev/build.js",
+		"/home/e.napierala/toyStory/front/Gruntfile/vr-tracker/dev/compass.js",
+		"/home/e.napierala/NetBeansProjects/usabilitytools/nuvr/recording/lib/ripper.js",
+		"/home/e.napierala/NetBeansProjects/usabilitytools/form-tester/form-tester-webapp/src/main/webapp/scripts/ext/ripper.js",
+		"/home/e.napierala/NetBeansProjects/usabilitytools/form-tester/form-tester-webapp/src/main/resources/tracker/trackerTemplate.js",
+		"/home/e.napierala/NetBeansProjects/usabilitytools/clicktracker/clicktracker-server/src/main/webapp/js/dom.js",
+		"/home/e.napierala/NetBeansProjects/usabilitytools/clicktracker/clicktracker-server/src/main/webapp/js/map.css",
+		"/home/e.napierala/NetBeansProjects/usabilitytools/nuvr/nuvr-recorder/src/main/java/com/cogision/ut/nuvr/recorder/script/TrackerScriptResource.java",
+		"/home/e.napierala/NetBeansProjects/usabilitytools/clicktracker/clicktracker-server/src/main/webapp/js/prototype.js",
+		"/home/e.napierala/NetBeansProjects/usabilitytools/nuvr/recording/tracker/eventmachine.js",
+		"/home/e.napierala/NetBeansProjects/usabilitytools/nuvr/recording/main.js",
+		"/home/e.napierala/NetBeansProjects/usabilitytools/nuvr/recording/tracker/persist.js",
+		"/home/e.napierala/NetBeansProjects/usabilitytools/nuvr/recording/lib/simpleSocket.js",
+		"/home/e.napierala/NetBeansProjects/usabilitytools/nuvr/recording/tracker/track.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dev/autoprefixer.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dev/build.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dev/copy.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dev/sass.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dev/shell.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dev/tasks/tasks.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dev/watch.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dist/autoprefixer.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dist/build.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dist/copy.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dist/karma.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dist/ngAnnotate.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dist/requirejs-index.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dist/requirejs.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dist/sass.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dist/shell.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp/dist/tasks/tasks.js",
+		"/home/e.napierala/user-metrics/front/package.json",
+		"/home/e.napierala/NetBeansProjects/ui-router/ui-router.sublime-project",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp-migration/dist/copy.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/vr-player/dist/sass.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/webapp-migration/dist/requirejs.js",
+		"/home/e.napierala/user-metrics/front/Gruntfile/um-grunt.sublime-project",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/one/views/content/recording__one__content.view.module.js",
+		"/home/e.napierala/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/e.napierala/.config/sublime-text-3/packages/JavaScript Refactor/Context.sublime-menu",
+		"/home/e.napierala/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/one/views/content/services/recording__one__content.services.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/one/views/content/directives/recording__one__content.directives.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/recording__list.state.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/views/content/root__content.view.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/directives/recording__list__content__filters.directives.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/script/views/content/project__one__script__content.view.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/views/sidebar__inner/project__one__sidebar__inner.view.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/edit/views/content/project__one__edit__content.view.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/project__one__recording.state.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/script/views/content/directives/project__one__script__content.directives.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/script/project__one__script.state.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/views/header/directives/project__one__header.directives.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/views/header/project__one__header.view.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/edit/project__one__edit.state.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/project__one.state.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/vendor/angular-bootstrap/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/objects.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/app.js",
+		"/home/e.napierala/.config/sublime-text-3/Packages/User/AngularJS.cache",
+		"/home/e.napierala/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/e.napierala/.config/sublime-text-3/Packages/AngularJS/AngularJS-sublime-package.sublime-settings",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/vendor/angular-bootstrap/dist/ui-bootstrap-0.11.0.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/one/recording__one.state.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/root.state.module.js",
+		"/home/e.napierala/user-metrics/front/apps/webapp-migration/um-webapp.sublime-project",
+		"/home/e.napierala/user-metrics/front/um-front.sublime-project",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/recording__list__content__filters.view.template.html",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/Gruntfile/webapp-migration/dist/copy.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/app.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/views/header/directives/projects-menu/root__header__projects-menu.template.html",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/bower.json",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/recording__list__content.view.template.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/e.napierala/browserify-seed/",
+			"/home/e.napierala/browserify-seed",
+			"/home/e.napierala/toyStory/front",
+			"/home/e.napierala/NetBeansProjects/usabilitytools/",
+			"/home/e.napierala/NetBeansProjects/usabilitytools/clicktracker/clicktracker-server/src/main/webapp/",
+			"/home/e.napierala/user-metrics/front/Gruntfile/webapp",
+			"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/one/views/content/directives/, *.js",
+			"/home/e.napierala/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/one/views/content/directives/recording__one__content.directives.module.js, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/, *.html",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/, *.html",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/spec, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/views/, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/views/header/directives/toggle-sidebar, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/views/header/directives/projects-menu, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/views/header/directives/toggle-sidebar, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/views/header, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/script, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/add, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/one, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/vr-tracker, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/vr-player, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/list/, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration, *.index.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/",
+			"~/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/lib",
+			"/home/e.napierala/NetBeansProjects/user-metrics/back/vr-node/",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/, -*/node_modules/*, -*/target/*, -*/lib/*",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/, -*/node_modules/*, -*/target/*",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/, -*/node_modules/*",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/, -node_modules",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player",
+			"<open folders>",
+			"/home/e.napierala/bin/",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps",
+			"/home/e.napierala/Downloads/Wirtualna Polska - www.wp.pl_files,*.js",
+			"/home/e.napierala/Downloads/Wirtualna Polska - www.wp.pl_files",
+			"/home/e.napierala/NetBeansProjects/usabilitytools-scripts/enviroment/common/developer-toolz",
+			"",
+			"include.min.js",
+			"",
+			"include.js",
+			"-*include.js",
+			"",
+			"-*include.js",
+			"-libinclude.js",
+			"libinclude.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"EventsEmitter",
+			"EventsEmitterMock",
+			"EventsEmitter",
+			"EventsEmitterStub",
+			"emit",
+			"Ass",
+			"clean:",
+			"config.dist",
+			"conf.",
+			"config",
+			"Dupa",
+			"cycek",
+			"\",",
+			"\"",
+			"^",
+			".test.",
+			"dist.js",
+			"requirejs",
+			"require",
+			"requirejs\n00",
+			"\n00",
+			"index",
+			"h4",
+			"section",
+			"$scope.scrollTo",
+			"scrollTo",
+			"{\n",
+			"recorderPages",
+			"$scope.$scope.",
+			"activeEvent",
+			"_timeProgressHandler",
+			"parseUrl",
+			"dummyScroller",
+			"+Date.now()",
+			"+",
+			"https",
+			"compass",
+			"scut",
+			"compasss",
+			"%>/',",
+			"compass",
+			"appBuild",
+			"compass",
+			"worker",
+			"iframe",
+			"ifr",
+			"iframe",
+			",\n            'uglify:vr-tracker'",
+			"migration",
+			"webapp-migration",
+			"angular-url-format",
+			"angular-bootstrap-directives",
+			"front",
+			"Simeprogress",
+			"select",
+			"Select",
+			"datepicker",
+			"RecordingListFilters",
+			"RecordingListContentFilters",
+			"recording__list__content__filters",
+			"project__one__content__filters",
+			"super",
+			"win+",
+			"win",
+			"super",
+			"+l\"",
+			"indent",
+			"move",
+			"class=\"btn",
+			"'",
+			"53a1781124aca2eda37e15f6",
+			"startPage",
+			".$object",
+			"involved",
+			"start",
+			"changeFiltersValue",
+			"dupa",
+			"1",
+			"null",
+			"$scope.options.startPage[0]",
+			"''",
+			".scss",
+			"involved",
+			"start",
+			"screenWidth",
+			"resolution",
+			"min",
+			" =",
+			"datepicker",
+			"Datepicker",
+			"start",
+			"ng-mo",
+			"ng-",
+			",",
+			": ",
+			"'",
+			"today",
+			"opened",
+			"$event",
+			"TRootHeaderProjectsMenu",
+			"MRootHeaderDirectives",
+			"div class=\"input-group\"",
+			"span class=\"input-group\"",
+			"span",
+			"@media",
+			"@med",
+			"-text",
+			"navbarContentFilters",
+			"navbar",
+			"$text-mu",
+			"$component-active-bg",
+			"$dropdown-link-active-bg",
+			"spin(",
+			" !default",
+			"@",
+			";",
+			"-inverse",
+			"nav-inverse",
+			"start",
+			"ngModelCtrl",
+			"div",
+			"VRecordingListContentFilters",
+			"div",
+			"Content",
+			"content.",
+			"content__",
+			"it-04",
+			"53610b4824ac7e85662f4d02"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"browserify",
+			"\n\n00",
+			"\n00",
+			"webapp",
+			"TimeProgress",
+			"time-progress",
+			"SimeProgress",
+			"player",
+			"RecordingOneContent",
+			"recording__one__content",
+			"adjust-hue(",
+			"",
+			"$",
+			" !default;",
+			"ContentFilters",
+			"content__filters.",
+			"content__filters__",
+			"project__one",
+			"ProjectOne",
+			"ToggleSidebar",
+			"toggle-sidebar",
+			"ProjectsMenu",
+			"projects-menu",
+			"Project",
+			"project",
+			"store",
+			"session",
+			"Script",
+			"script",
+			"Add",
+			"add",
+			"recording__one",
+			"RecordingOne",
+			"RecordingList",
+			"recording__list",
+			"",
+			"Recording",
+			"recording",
+			"List",
+			"list",
+			"footer",
+			"project__show",
+			"project",
+			"content",
+			"project",
+			"\n], function() {});",
+			"\n\n], function() {});",
+			",\nfunction() {}]);",
+			"\n,\nfunction() {}]);",
+			", function() {} ]);",
+			"function() {} ]);",
+			"define([",
+			"backgroundColor: null",
+			"event-type');",
+			"pipelineName:",
+			".pipelineName",
+			"production-detect.js",
+			"",
+			"\"s\": \"i\",",
+			"\"s\": \"a\"",
+			"\"t\"",
+			"\"pa\"",
+			"\"pr\"",
+			"\"s\"",
+			"\"v\"",
+			"\"r\"",
+			"\"n\"",
+			"\"i\"",
+			"/* use asap() if you don't care about animation smoothness; or write some engine for batch drawing with requestAnimationFrame or something! */\nsetImmediate(",
+			"setImmediate(",
+			"tabFoundHandler",
+			".lastEvent",
+			".lasttEvent",
+			".firstEvent",
+			"underscore",
+			"asap(_spawnNext);",
+			"setImmediate(_spawnNext);",
+			"inputOver",
+			"$boxShadowOffset-right-default",
+			"$boxShadowOffset-left-default",
+			"$boxShadowBlur-small",
+			"$boxShadowBlur-default",
+			"</body>",
+			"\"R6P",
+			"\\\"",
+			"\\\\\"",
+			"\\\"",
+			"\\\\'",
+			"\\'",
+			"cogIsionFRMTitlebar",
+			".",
+			".cogIsionTitlebar",
+			"respondents",
+			".ct-analyzer",
+			"'",
+			"_rebuildIndexes",
+			"_addToCanvas",
+			"_getI18n",
+			"_hideLoader",
+			"_showLoader",
+			"_hideMarkerMenu",
+			"_showMarkerMenu",
+			"_buildCanvas",
+			"_removeFromCanvas",
+			"$dragged",
+			"map",
+			"index",
+			"dragged",
+			"markerMenu.hide",
+			"markerMenu.show",
+			"",
+			"$SEP$SEP$SEP",
+			"<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum enim laoreet ligula ullamcorper consectetur. Fusce aliquam mi sit amet velit pharetra eleifend.</li>",
+			"Node.ELEMENT_NODE",
+			"// window.modules.markAsParsed(",
+			"define",
+			"window.modules",
+			"p.classNames."
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3217,
+								3217
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"tabs_extra_last_activated": 1407836170.24,
+							"tabs_extra_last_activated_view_index": 0,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1785.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								697,
+								697
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/Better JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1407837057.95,
+							"tabs_extra_last_activated_view_index": 1,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test/karma.conf.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"tabs_extra_last_activated": 1407833640.94,
+							"tabs_extra_last_activated_view_index": 1,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/scripts/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								221
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+							"tabs_extra_last_activated": 1407832782.71,
+							"tabs_extra_last_activated_view_index": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/scripts/mods/example.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+							"tabs_extra_last_activated": 1407832791.7,
+							"tabs_extra_last_activated_view_index": 3
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/scripts/mods/example.spec.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"nodePath": "node",
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+							"tabs_extra_last_activated": 1407833643.61,
+							"tabs_extra_last_activated_view_index": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 590.0
+	},
+	"project": "browserify-seed.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"project",
+				"apps/webapp-migration/app/states/root/sub/project/sub/add/project__add.state.module.js"
+			],
+			[
+				"project.",
+				"apps/webapp-migration/app/states/root/sub/project/sub/add/project__add.state.module.js"
+			],
+			[
+				"project.st",
+				"apps/webapp-migration/app/states/root/sub/project/project.state.module.js"
+			],
+			[
+				"add.view",
+				"apps/webapp-migration/app/states/root/sub/project/sub/add/views/content/project__add__content.view.controller.js"
+			],
+			[
+				"appen",
+				"apps/vr-tracker/scripts/wrappers/append-config.js"
+			],
+			[
+				"_var",
+				"apps/webapp-migration/vendor/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_variables.scss"
+			],
+			[
+				"nab",
+				"apps/webapp-migration/style/layout/common/bootstrap/navbar-vertical.scss"
+			],
+			[
+				"_varia",
+				"apps/webapp-migration/vendor/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_variables.scss"
+			],
+			[
+				"directive.scss",
+				"apps/webapp-migration/style/layout/states/root/project/one/recording/list/recording__list__content__filters__datepicker.directive.scss"
+			],
+			[
+				".directive.js",
+				"apps/webapp-migration/app/states/root/views/header/directives/projects-menu/root__header__projects-menu.directive.js"
+			],
+			[
+				"directives.module.js",
+				"apps/webapp-migration/app/states/root/sub/project/sub/one/views/header/directives/project__one__header.directives.module.js"
+			],
+			[
+				"directives.",
+				"apps/webapp-migration/app/states/root/views/header/directives/root__header.directives.module.js"
+			],
+			[
+				"_vari",
+				"apps/webapp-migration/vendor/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_variables.scss"
+			],
+			[
+				"list__content.view.temp",
+				"apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/recording__list__content.view.template.html"
+			],
+			[
+				"i18",
+				"apps/webapp-migration/app/common/services/i18n/i18n.service.js"
+			],
+			[
+				"filters.view",
+				"apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/recording__list__content__filters.view.module.js"
+			],
+			[
+				"filters.view.",
+				"apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/recording__list__content__filters.view.controller.js"
+			],
+			[
+				"header.view.tem",
+				"apps/webapp-migration/app/states/root/sub/project/sub/one/views/header/project__one__header.view.template.html"
+			],
+			[
+				"list.view.tem",
+				"apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/recording__list__content.view.template.html"
+			],
+			[
+				"filters.v",
+				"apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/recording__list__content__filters.view.template.html"
+			],
+			[
+				"filter.view",
+				"apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/recording__list__content__filters.view.controller.js"
+			],
+			[
+				"header.view.te",
+				"apps/webapp-migration/app/states/root/sub/project/sub/one/views/header/project__one__header.view.template.html"
+			],
+			[
+				"sidebar__directive",
+				"apps/webapp-migration/app/states/root/views/sidebar/directives/sidebar/root__sidebar__sidebar-sidebar.directive.js"
+			],
+			[
+				"sett",
+				"apps/vr-tracker/scripts/mods/settings.js"
+			],
+			[
+				"sess",
+				"apps/vr-tracker/scripts/mods/session.js"
+			],
+			[
+				"persis",
+				"apps/vr-tracker/scripts/mods/persist.js"
+			],
+			[
+				"fea",
+				"apps/webapp-migration/app/common/helpers/features/features.js"
+			],
+			[
+				"",
+				"/home/e.napierala/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
+			],
+			[
+				"mixin",
+				"mixins.scss"
+			],
+			[
+				"fbhe",
+				"libfbhelper.js"
+			],
+			[
+				"mixi",
+				"mixins.scss"
+			],
+			[
+				"std",
+				"libstd.js"
+			],
+			[
+				"incl",
+				"include.js"
+			],
+			[
+				"inclu",
+				"libinclude.js"
+			],
+			[
+				"effec",
+				"libeffects.js"
+			],
+			[
+				"inc",
+				"include.js"
+			],
+			[
+				"ui",
+				"libui.js"
+			],
+			[
+				"effe",
+				"libeffects.js"
+			],
+			[
+				"tem",
+				"libtemplate.js"
+			],
+			[
+				"aja",
+				"libajax.js"
+			],
+			[
+				"help",
+				"libfbhelper.js"
+			],
+			[
+				"eff",
+				"libeffects.js"
+			],
+			[
+				"helper",
+				"libfbhelper.js"
+			],
+			[
+				"ic",
+				"include.js"
+			],
+			[
+				"in",
+				"include.js"
+			],
+			[
+				"i",
+				"include.js"
+			],
+			[
+				"lib",
+				"libtemplate.js"
+			],
+			[
+				"hel",
+				"libfbhelper.js"
+			],
+			[
+				"helpe",
+				"libfbhelper.js"
+			],
+			[
+				"incli",
+				"include.js/include.js"
+			],
+			[
+				"fbhel",
+				"libfbhelper.js"
+			],
+			[
+				"aj",
+				"libajax.js"
+			],
+			[
+				"hele",
+				"libfbhelper.js"
+			],
+			[
+				"ajax",
+				"libajax.js"
+			],
+			[
+				"temp",
+				"libtemplate.js"
+			],
+			[
+				"libinc",
+				"libinclude.js"
+			],
+			[
+				"edi",
+				"libeditor.js"
+			],
+			[
+				"edit",
+				"libeditor.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 583.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
