@@ -6,19 +6,19 @@ if (!Function.prototype.bind) {
             throw new TypeError('Function.prototype.bind - what is trying to be bound is not callable');
         }
 
+        var FNOP = function () { };
+        var instanceOfFNOP; try { instanceOfFNOP = this instanceof FNOP; } catch(e) { }
         var aArgs = Array.prototype.slice.call(arguments, 1),
             fToBind = this,
-            fNOP = function () {
-            },
             fBound = function () {
-                return fToBind.apply(this instanceof fNOP && oThis
+                return fToBind.apply(instanceOfFNOP && oThis
                         ? this
                         : oThis,
                     aArgs.concat(Array.prototype.slice.call(arguments)));
             };
 
-        fNOP.prototype = this.prototype;
-        fBound.prototype = new fNOP();
+        FNOP.prototype = this.prototype;
+        fBound.prototype = new FNOP();
 
         return fBound;
     };
