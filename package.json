@@ -1,8 +1,8 @@
 {
   "name": "browserify-seed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "One more seed for web applications based on browserify module loader. Simple structure and Grunt file included.",
-  "main": "gruntfile.js",
+  "main": "index.js",
   "scripts": {
     "test": "grunt test"
   },
