@@ -24,7 +24,7 @@
   "homepage": "https://github.com/erykpiast/browserify-seed",
   "devDependencies": {
     "grunt": "~0.4",
-    "grunt-browserify": "~2.2",
+    "grunt-browserify": "~3.0",
     "grunt-contrib-clean": "~0.5",
     "grunt-contrib-copy": "~0.5",
     "grunt-contrib-jshint": "~0.10",
@@ -32,7 +32,7 @@
     "grunt-contrib-watch": "~0.6",
     "grunt-http-server": "latest",
     "grunt-karma": "~0.8",
-    "load-grunt-tasks": "^0.6.0",
+    "load-grunt-tasks": "~0.6",
     "karma": "~0.12",
     "karma-chrome-launcher": "~0.1",
     "karma-jasmine": "~0.2",
