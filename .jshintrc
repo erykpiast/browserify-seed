@@ -1,14 +1,5 @@
 {
-    "globals": {
-    /* Jasmine >> */
-        "jasmine": true,
-        "describe": true,
-        "it": true,
-        "expect": true,
-        "beforeEach": true,
-        "afterEach": true
-    /* << Jasmine */
-    },
+    "globals": { },
     "node": true,
     "regexdash": true,
     "browser": true,
