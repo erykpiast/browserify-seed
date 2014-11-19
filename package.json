@@ -32,6 +32,7 @@
     "grunt-contrib-watch": "~0.6",
     "grunt-http-server": "latest",
     "grunt-karma": "~0.8",
+    "grunt-notify": "~0.3",
     "grunt-gh-pages": "~0.9",
     "load-grunt-tasks": "~0.6",
     "karma": "~0.12",
