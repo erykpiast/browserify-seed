@@ -5,9 +5,10 @@ One more seed for web applications based on browserify module loader.
 
 Included:
  * basic structure of directories
- * basic Grunt configuration with dev and dist plans
+ * basic Grunt configuration with dev plan (no dist plan, assuming that module is used as part of external bundle on production)
  * basic testing infractructure
  * basic demo webpage
+ * automatic publishing demo webpage on GitHub
  * package.json, .jshintrc and .gitignore files
 
 Feel free to fork and adapt it to your own needs!
