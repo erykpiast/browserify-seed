@@ -11,12 +11,24 @@ module.exports = function (grunt) {
         'clean:demo'
     ]);
 
+    grunt.registerTask('publish-pages', [
+        'jshint',
+        'clean:demo',
+        'browserify:demo',
+        'gh-pages',
+        'clean:demo'
+    ]);
+
     grunt.registerMultiTask('test', simpleMultiTaskRunner);
 
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         config: {
+            githubPages: {
+                base: 'demo',
+                files: [ 'index.html', 'demo.bundle.js', 'demo.bundle.css' ]
+            },
             demo: {
                 server: {
                     port: process.env.PORT || 8080,
@@ -162,6 +174,12 @@ module.exports = function (grunt) {
                 }
             }
         },
+        'gh-pages': {
+            options: {
+                base: '<%= config.githubPages.base %>'
+            },
+            src: '<%= config.githubPages.files %>'
+        }
     });
 
     require('load-grunt-tasks')(grunt);

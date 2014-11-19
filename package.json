@@ -1,6 +1,6 @@
 {
   "name": "browserify-seed",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "One more seed for web applications based on browserify module loader. Simple structure and Grunt file included.",
   "main": "index.js",
   "scripts": {
@@ -32,6 +32,7 @@
     "grunt-contrib-watch": "~0.6",
     "grunt-http-server": "latest",
     "grunt-karma": "~0.8",
+    "grunt-gh-pages": "~0.9",
     "load-grunt-tasks": "~0.6",
     "karma": "~0.12",
     "karma-chrome-launcher": "~0.1",
