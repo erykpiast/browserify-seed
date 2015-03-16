@@ -9,6 +9,9 @@ Included:
  * basic testing infractructure
  * basic demo webpage
  * package.json, .jshintrc and .gitignore files
+ * some useful and commonly used Browserify transforms (brfs, aliasify)
+ * optional ES6 support (through Babelify)
+ * SCSS and Autoprefixer for easing CSS development
 
 Feel free to fork and adapt it to your own needs!
 
