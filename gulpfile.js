@@ -20,11 +20,24 @@ gulp.task('build', function() {
 });
 
 gulp.task('test:lint', require('./gulp/test/lint'));
-gulp.task('test:build', require('./gulp/test/build')(
+gulp.task('test:build', require('./gulp/test/build'));
+gulp.task('test:build-watch', require('./gulp/test/build-watch')(
     require('./gulp/test/lint').bind(null, null),
     require('./gulp/test/run').bind(null, null)
 ));
 gulp.task('test:run', require('./gulp/test/run'));
-gulp.task('test', [ 'test:build' ]);
+gulp.task('test', function(cb) {
+    runSequence(
+        [ 'lint', 'test:lint' ],
+        'test:build',
+        'test:run',
+        function() {
+            gutil.log('test task finished');
+
+            cb();
+        }
+    );
+});
+gulp.task('test-dev', [ 'test:build-watch' ]);
 
 gulp.task('default', [ 'build', 'webserver' ]);

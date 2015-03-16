@@ -3,21 +3,18 @@
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var source = require('vinyl-source-stream');
-var watchify = require('watchify');
 var glob = require('glob');
 var browserify = require('browserify');
 var babelify = require('babelify');
 var aliasify = require('aliasify');
-var extend = require('extend');
 
 var config = require('../config');
 
-
-module.exports = function buildTestsTask(before, after) {
-    var bundler = watchify(browserify(extend(watchify.args, {
-        debug: true,
-        entry: true
-    })));
+var bundler = (function createBundler() {
+    var bundler = browserify({
+            debug: true,
+            entry: true
+        });
 
     glob.sync(config.test.files).forEach(function(filePath) {
         bundler = bundler.add(filePath);
@@ -33,30 +30,18 @@ module.exports = function buildTestsTask(before, after) {
             'x-tag': '../../shims/x-tag.js'
         },
         configDir: __dirname
-    }))
-    .on('update', _build);
+    }));
 
-    function _build(changedFiles) {
-        gutil.log('building is starting...');
+    return bundler;
+})();
 
-        if(changedFiles) {
-            gutil.log([ 'files to rebuild:' ].concat(changedFiles).join('\n'));
-        }
+function buildTestsTask() {
+    return bundler.bundle()
+    .on('error', function(err) {
+        gutil.log('Browserify error:', err.message);
+    })
+    .pipe(source(config.test.bundle.name))
+    .pipe(gulp.dest(config.test.bundle.dir));
+}
 
-        return before(changedFiles)
-            .pipe(bundler.bundle())
-            .on('error', function(err) {
-                gutil.log('Browserify error:', err.message);
-            })
-            .pipe(source(config.test.bundle.name))
-            .pipe(gulp.dest(config.test.bundle.dir))
-            .on('finish', function() {
-                gutil.log('building finished!');
-            })
-            .pipe(after(changedFiles));
-    };
-
-    return function() {
-        return _build();
-    };
-};
+module.exports = buildTestsTask;
