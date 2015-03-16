@@ -10,9 +10,8 @@ module.exports = (function() {
     });
 
     function run() {
-        example.doSomething(1000);      
+        example.doSomething(1000);
     }
-
 
     return {
         run: run

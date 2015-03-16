@@ -38,5 +38,6 @@
     "node": true,
     "white": false,
     "laxbreak": true,
-    "validthis": true
+    "validthis": true,
+    "esnext": true
 }

@@ -1,19 +1,19 @@
 module.exports = function (config) {
     config.set({
-        basePath: '../',
+        basePath: '.',
 
-        frameworks: [ 'jasmine' ],
+        frameworks: [ 'mocha' ],
 
-        files: [ /* definition in gruntfile */ ],
+        files: [ /* definition in gulpfile */ ],
 
-        reporters: [ 'dots' ],
+        reporters: [ 'mocha' ],
         colors: true,
         logLevel: config.LOG_INFO,
-        
+
         port: 9876,
         autoWatch: false,
 
-        browsers: [ 'PhantomJS', 'Chrome' ],
+        browsers: [ 'PhantomJS' ],
         singleRun: true
     });
 };
