@@ -1,3 +1,3 @@
-var example = require('../index');
+var example = require('../src/index');
 
 example.run();

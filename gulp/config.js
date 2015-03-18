@@ -3,7 +3,7 @@
 module.exports = {
     src: {
         js: {
-            files: [ './src/js/**/*.js', '!./src/js/**/spec/**/*.js' ],
+            files: [ './src/js/index.js', './src/js/**/*.js', '!./src/js/**/spec/**/*.js' ],
             main: './src/js/index.js'
         },
         css: {
